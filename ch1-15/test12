@@ -1,0 +1,17 @@
+#!/bin/bash
+
+var1=12.09
+var2=45.37
+var3=13.45
+var4=19.68
+
+final=$(bc << EOF
+scale = 4
+a1 = ($var1 * $var2)
+a2 = ($var3 * $var4)
+a1 + a2
+EOF
+)
+
+echo final answer $final
+

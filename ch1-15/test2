@@ -1,0 +1,5 @@
+#!/bin/bash
+# Display user info
+echo "Usr info for $USER"
+echo UID: $UID
+echo HOME: $HOME

@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script displays the date and who's logged on
+echo -n "The time and data are: "
+date
+echo Logged users
+who

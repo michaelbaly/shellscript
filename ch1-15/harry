@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Basename of executable file
+
+name=$(basename $0)
+
+if [ $name = "Harry" ]; then
+    total=$[ $1 + $2 ]
+elif [ $name = "Gypsice" ]; then
+    total=$[ $1 * $2 ]
+fi
+echo "Total value: $total"
